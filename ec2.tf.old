@@ -1,0 +1,7 @@
+resource "aws_instance" "Adriano_02" {
+  ami           = "ami-039e314f611dbc210"
+  instance_type = "t3.micro"
+  tags = {
+    "Name" = "minha instancia_02"
+  }
+}
